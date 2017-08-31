@@ -1,4 +1,7 @@
 # TidyProject
+
+This file does the following transformations to a data-set described in the code book. It takes two data-sets, creates tidy variable names, filters to only have mean and std observations, merges the two data-sets and then creates a tidy dataset the has the overall mean for every variable and subject in the data-set.
+
 ##Load data source from source folder
 
 setwd("C:/Users/bbates.FIDELITONE/Documents/DataScience/UCI HAR Dataset")
